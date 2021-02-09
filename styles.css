@@ -1,0 +1,265 @@
+*{
+
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+#content{
+	background-image: url(C:/Users/reno4/Downloads/jude-beck-ZgDRrCQgsLc-unsplash.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+a:visited , a:link{
+	text-decoration: none;
+	color:none;
+}
+.tittle{
+	font-weight: 900;
+	text-align: center;
+	padding: 30px 10px ;
+	padding-top: 200px;
+	display: block;
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #655E51;
+}
+.cactus{
+	padding:-190px;
+	padding-bottom: 100px; 
+}
+.booter{
+	display:both;
+}
+.content2{
+	width: 100%;
+	margin-top: 500px;
+	background-size: 100%;
+	background: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.7)55%);
+	align-content: center;
+	text-align: center;
+}
+.tittle__content2{
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #ffff;
+	font-size:50px;	
+	padding: 0px 10px 50px 10px;
+	display: block;
+	text-align: center;
+	margin: 0;
+}
+.content2__text{
+	text-align: center;	
+	color: #ffff;
+	padding: 30px 10px 50px 10px;
+	margin: 0 40px;
+	font-family: 'Inter', sans-serif;
+	font-size: 1.3vw;
+}
+.img__content2{
+	display: inline-block;
+	height: 100px;
+	margin:15px;
+}
+.content3{
+	height: 1000px;
+	background-size: 100%;
+	background: url(C:/Users/reno4/Downloads/annie-spratt-fbAnIjhrOL4-unsplash.jpg);
+	background-position: center; 
+	background-repeat: no-repeat; 
+}
+.content3__tittle{
+	text-align: center;	
+	color: #000;
+	padding: 15px; 
+	margin: 0 20px;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 5vw;
+}
+.content3_text{
+	display: flex;
+	justify-content: space-between;;
+}
+.text_content3{
+	font-family: 'Inter', sans-serif;
+	max-width: 100px;
+	margin: 20px;
+}
+.buy_content{
+	background-size: 100%;
+	background-image: url(C:/Users/reno4/Downloads/cactus-bg-buy.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat; 
+}
+#hola2{
+	padding-bottom: 0px;
+}
+.img-grid-cactus{
+	width: 20vw;
+	min-width: 400px;
+	border-radius: 7px;
+	transition: 0.3s;
+}
+.img-grid-cactus:hover{
+	transform: scale(1.01); 
+}
+.cactus-tittle{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	padding: 0 7px ;
+	margin: 10px 1px 0 1px;
+}
+.sub_tittle_cactus_buy{
+	padding: 5px;
+	margin: 10px 1px 0 1px;
+	display: inline-block;
+}
+.grid-content{
+	text-align: center;
+	align-content: center;
+	margin: 10px;
+	background: none;
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr ;
+	grid-gap: 30px; 
+}
+.grid-cactus{
+	background: rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	color: #fff7e8;
+	font-family: 'Inter', sans-serif;
+	transition: 0.45s;
+}
+.grid-cactus:hover{
+	background: rgba(0, 0, 0, 0.40);
+}
+.buy{
+	font-size: 30px;
+	background: none;
+	border: 3px solid #fff7e8;
+	color: #fff7e8;
+	border-radius: 7px;
+	padding: 10px;
+	margin: 5px;
+	margin-top: 10px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	transition: 0.4s;
+}
+.buy:hover{
+	background: #36EBA5;
+	border: 3px solid #36EBA5;
+	color: #000;
+}
+.add-to-car{
+	font-size: 30px;
+	background: #fff7e8;
+	border: 3px solid #fff7e8;
+	color: #000;
+	border-radius: 7px;
+	padding: 10px;
+	margin: 5px;
+	margin-top: 10px;
+	display: inline-block;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	transition: 0.4s;
+}
+.add-to-car:hover{
+	background: #1EB67B;
+	border: 3px solid #1EB67B;
+	color: #ffff;
+}
+.content4{
+	background: #E9E9E9;
+	padding:10px;
+	text-align: center;
+	transition: 0.4s;
+}
+.content4:hover{
+	background: #000;
+}
+.contact_tittle{
+	font-family: 'Merriweather Sans', sans-serif;
+	display: inline-block;
+	padding: 10px;
+	transition: 0.4s
+}
+.content4:hover > .contact_tittle{
+	color: #fff;
+}
+.contact_sub_tittle{
+	font-family: 'Inter', sans-serif;
+	font-weight: 900;
+	display: inline-block;
+	padding: 0 5px;
+	transition: 0.4s
+}
+.content4:hover > .contact_sub_tittle{
+	color: #fff;
+}
+.social_content_grid{
+	width: 100%;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr; 
+}
+.social_grid{
+	justify-content: center;
+	background: #000;
+	color: #ffff;
+	text-align: center;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 30px;
+	padding: 5px;
+	border-radius: 10px;
+	transition: .7s;
+}
+
+.color_facebook:hover{
+	color: #14B4FF ;
+	display: inline-block;
+}
+.color_instagram:hover{
+	color: #FFD738 ;
+	display: inline-block;
+}
+.color_twitter:hover{
+	color: #00EAFF; 
+	display: inline-block;
+}
+.color_whatsapp:hover{
+	color: #00EA74 ;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
