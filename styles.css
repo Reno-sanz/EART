@@ -7,7 +7,10 @@
 }
 
 #content{
-	background:#FFD606;
+	background-image: url(jude-beck-ZgDRrCQgsLc-unsplash.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 a:visited , a:link{
 	text-decoration: none;
