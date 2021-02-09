@@ -7,7 +7,7 @@
 }
 
 #content{
-	background-image: url(C:/Users/reno4/Downloads/jude-beck-ZgDRrCQgsLc-unsplash.jpg);
+	background-image: url(jude-beck-ZgDRrCQgsLc-unsplash.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -67,7 +67,7 @@ a:visited , a:link{
 .content3{
 	height: 1000px;
 	background-size: 100%;
-	background: url(C:/Users/reno4/Downloads/annie-spratt-fbAnIjhrOL4-unsplash.jpg);
+	background: url(annie-spratt-fbAnIjhrOL4-unsplash.jpg);
 	background-position: center; 
 	background-repeat: no-repeat; 
 }
@@ -90,7 +90,7 @@ a:visited , a:link{
 }
 .buy_content{
 	background-size: 100%;
-	background-image: url(C:/Users/reno4/Downloads/cactus-bg-buy.jpg);
+	background-image: url(cactus-bg-buy.jpg);
 	background-position: bottom;
 	background-repeat: no-repeat; 
 }
